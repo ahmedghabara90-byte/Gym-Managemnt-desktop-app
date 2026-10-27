@@ -1,0 +1,13 @@
+Vélo#Cardio#25-40#N'importe
+Elliptique#Cardio#20-40#N'importe
+Tapis#Cardio#25-50#N'importe
+Musculation#Renforcement musculaire#20-50#N'importe
+Gainage#Renforcement musculaire#15-35#N'importe
+Abdominaux#Renforcement musculaire#20-50#Homme
+Danse#Cours collectif#15-30#Femme
+Yoga#Cours collectif#60-75#Femme
+Stretching#Cours collectif#50-75#N'importe
+Natation#Cardio#15-55#N'importe
+Escalade#Renforcement musculaire#25-50#N'importe
+Boxe#Renforcement musculaire#20-45#Homme
+Volley#Cours collectif#15-40#N'importe

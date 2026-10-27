@@ -1,0 +1,275 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Form7
+    Inherits System.Windows.Forms.Form
+
+    'Form remplace la méthode Dispose pour nettoyer la liste des composants.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Requise par le Concepteur Windows Form
+    Private components As System.ComponentModel.IContainer
+
+    'REMARQUE : la procédure suivante est requise par le Concepteur Windows Form
+    'Elle peut être modifiée à l'aide du Concepteur Windows Form.  
+    'Ne la modifiez pas à l'aide de l'éditeur de code.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        ListBox1 = New ListBox()
+        ListBox2 = New ListBox()
+        DateTimePicker1 = New DateTimePicker()
+        DateTimePicker2 = New DateTimePicker()
+        ComboBox1 = New ComboBox()
+        Button1 = New Button()
+        Button16 = New Button()
+        DataGridView1 = New DataGridView()
+        ACT = New DataGridViewTextBoxColumn()
+        COACH = New DataGridViewTextBoxColumn()
+        DAT = New DataGridViewTextBoxColumn()
+        TIME = New DataGridViewTextBoxColumn()
+        SALLE = New DataGridViewTextBoxColumn()
+        Label5 = New Label()
+        Button2 = New Button()
+        Label7 = New Label()
+        Label1 = New Label()
+        Label2 = New Label()
+        Label3 = New Label()
+        CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
+        SuspendLayout()
+        ' 
+        ' ListBox1
+        ' 
+        ListBox1.Font = New Font("Garamond", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        ListBox1.FormattingEnabled = True
+        ListBox1.Location = New Point(113, 373)
+        ListBox1.Name = "ListBox1"
+        ListBox1.Size = New Size(231, 290)
+        ListBox1.TabIndex = 0
+        ' 
+        ' ListBox2
+        ' 
+        ListBox2.Font = New Font("Garamond", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        ListBox2.FormattingEnabled = True
+        ListBox2.Location = New Point(402, 373)
+        ListBox2.Name = "ListBox2"
+        ListBox2.Size = New Size(231, 290)
+        ListBox2.TabIndex = 1
+        ' 
+        ' DateTimePicker1
+        ' 
+        DateTimePicker1.Font = New Font("Garamond", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        DateTimePicker1.Format = DateTimePickerFormat.Short
+        DateTimePicker1.Location = New Point(699, 384)
+        DateTimePicker1.Name = "DateTimePicker1"
+        DateTimePicker1.Size = New Size(341, 52)
+        DateTimePicker1.TabIndex = 7
+        ' 
+        ' DateTimePicker2
+        ' 
+        DateTimePicker2.CustomFormat = "HH:mm"
+        DateTimePicker2.Font = New Font("Garamond", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        DateTimePicker2.Format = DateTimePickerFormat.Custom
+        DateTimePicker2.Location = New Point(699, 459)
+        DateTimePicker2.Name = "DateTimePicker2"
+        DateTimePicker2.Size = New Size(341, 52)
+        DateTimePicker2.TabIndex = 8
+        ' 
+        ' ComboBox1
+        ' 
+        ComboBox1.DropDownStyle = ComboBoxStyle.DropDownList
+        ComboBox1.Font = New Font("Garamond", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        ComboBox1.Items.AddRange(New Object() {"Salle 01", "Salle 02", "Salle 03", "Salle 04", "Salle 05", "Salle 06", "Salle 07"})
+        ComboBox1.Location = New Point(699, 624)
+        ComboBox1.Name = "ComboBox1"
+        ComboBox1.Size = New Size(341, 53)
+        ComboBox1.TabIndex = 37
+        ' 
+        ' Button1
+        ' 
+        Button1.BackColor = Color.Transparent
+        Button1.Font = New Font("Garamond", 16.2F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button1.Location = New Point(54, 858)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(340, 70)
+        Button1.TabIndex = 41
+        Button1.Text = "Ajouter"
+        Button1.UseVisualStyleBackColor = False
+        ' 
+        ' Button16
+        ' 
+        Button16.Font = New Font("Garamond", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button16.Location = New Point(1826, 920)
+        Button16.Name = "Button16"
+        Button16.Size = New Size(86, 45)
+        Button16.TabIndex = 43
+        Button16.Text = "Quit"
+        Button16.UseVisualStyleBackColor = True
+        ' 
+        ' DataGridView1
+        ' 
+        DataGridView1.AllowUserToAddRows = False
+        DataGridView1.AllowUserToDeleteRows = False
+        DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridView1.Columns.AddRange(New DataGridViewColumn() {ACT, COACH, DAT, TIME, SALLE})
+        DataGridView1.Location = New Point(1224, 314)
+        DataGridView1.Name = "DataGridView1"
+        DataGridView1.RowHeadersWidth = 51
+        DataGridView1.Size = New Size(679, 379)
+        DataGridView1.TabIndex = 44
+        ' 
+        ' ACT
+        ' 
+        ACT.HeaderText = "Activité"
+        ACT.MinimumWidth = 6
+        ACT.Name = "ACT"
+        ACT.Width = 125
+        ' 
+        ' COACH
+        ' 
+        COACH.HeaderText = "Coach"
+        COACH.MinimumWidth = 6
+        COACH.Name = "COACH"
+        COACH.Width = 125
+        ' 
+        ' DAT
+        ' 
+        DAT.HeaderText = "Date"
+        DAT.MinimumWidth = 6
+        DAT.Name = "DAT"
+        DAT.Width = 125
+        ' 
+        ' TIME
+        ' 
+        TIME.HeaderText = "Heur"
+        TIME.MinimumWidth = 6
+        TIME.Name = "TIME"
+        TIME.Width = 125
+        ' 
+        ' SALLE
+        ' 
+        SALLE.HeaderText = "Salle"
+        SALLE.MinimumWidth = 6
+        SALLE.Name = "SALLE"
+        SALLE.Width = 125
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.BackColor = Color.WhiteSmoke
+        Label5.Font = New Font("Garamond", 36F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label5.Location = New Point(611, 33)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(568, 68)
+        Label5.TabIndex = 46
+        Label5.Text = "Gestion des planning"
+        ' 
+        ' Button2
+        ' 
+        Button2.Font = New Font("Garamond", 13.8F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Button2.Location = New Point(51, 33)
+        Button2.Name = "Button2"
+        Button2.Size = New Size(88, 50)
+        Button2.TabIndex = 45
+        Button2.Text = "Retour"
+        Button2.UseVisualStyleBackColor = True
+        ' 
+        ' Label7
+        ' 
+        Label7.AutoSize = True
+        Label7.BackColor = Color.Transparent
+        Label7.Font = New Font("Garamond", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label7.Location = New Point(148, 314)
+        Label7.Name = "Label7"
+        Label7.Size = New Size(128, 45)
+        Label7.TabIndex = 53
+        Label7.Text = "Coach"
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.BackColor = Color.Transparent
+        Label1.Font = New Font("Garamond", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label1.Location = New Point(432, 314)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(150, 45)
+        Label1.TabIndex = 54
+        Label1.Text = "Activité"
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.BackColor = Color.Transparent
+        Label2.Font = New Font("Garamond", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label2.Location = New Point(692, 314)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(102, 45)
+        Label2.TabIndex = 55
+        Label2.Text = "Date"
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.BackColor = Color.Transparent
+        Label3.Font = New Font("Garamond", 24F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        Label3.Location = New Point(699, 567)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(98, 45)
+        Label3.TabIndex = 56
+        Label3.Text = "Salle"
+        ' 
+        ' Form7
+        ' 
+        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleMode = AutoScaleMode.Font
+        BackgroundImage = My.Resources.Resources.pratiques_sportives_scaled_imgupscaler_ai_Beta_4K
+        BackgroundImageLayout = ImageLayout.Stretch
+        ClientSize = New Size(1924, 977)
+        Controls.Add(Label3)
+        Controls.Add(Label2)
+        Controls.Add(Label1)
+        Controls.Add(Label7)
+        Controls.Add(Label5)
+        Controls.Add(Button2)
+        Controls.Add(DataGridView1)
+        Controls.Add(Button16)
+        Controls.Add(Button1)
+        Controls.Add(ComboBox1)
+        Controls.Add(DateTimePicker2)
+        Controls.Add(DateTimePicker1)
+        Controls.Add(ListBox2)
+        Controls.Add(ListBox1)
+        Name = "Form7"
+        Text = "Form7"
+        WindowState = FormWindowState.Maximized
+        CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
+        ResumeLayout(False)
+        PerformLayout()
+    End Sub
+
+    Friend WithEvents ListBox1 As ListBox
+    Friend WithEvents ListBox2 As ListBox
+    Friend WithEvents DateTimePicker1 As DateTimePicker
+    Friend WithEvents DateTimePicker2 As DateTimePicker
+    Friend WithEvents ComboBox1 As ComboBox
+    Friend WithEvents Button1 As Button
+    Friend WithEvents Button16 As Button
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents ACT As DataGridViewTextBoxColumn
+    Friend WithEvents COACH As DataGridViewTextBoxColumn
+    Friend WithEvents DAT As DataGridViewTextBoxColumn
+    Friend WithEvents TIME As DataGridViewTextBoxColumn
+    Friend WithEvents SALLE As DataGridViewTextBoxColumn
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Button2 As Button
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+End Class
